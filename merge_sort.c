@@ -5,11 +5,6 @@
 #define TRUE 1
 #define FALSE 0
 
-typedef struct _NODE {
-	int data;
-	struct _NODE* Next;
-} NODE;
-
 void MakeRandomNumber();
 void MergeSort(int [], int , int);
 void DisplayBuffer();
