@@ -118,7 +118,7 @@ int main() {
 	if (ret == -1) {
 		printf("\n%d라는 데이터가 존재하지 않는다.\n", n);
 	} else {
-		printf("\%d이라는 데이터가 %d번째에 존재한다.\n", n, ret);
+		printf("\n%d이라는 데이터가 %d번째에 존재한다.\n", n, ret);
 	}
 
 	printf("총 비교 횟수 : %d\n", CompareCount);
